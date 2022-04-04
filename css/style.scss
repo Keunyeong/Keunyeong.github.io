@@ -32,6 +32,8 @@ body {
   }
   main {
     margin: 20px 200px;
+    height: 85vh;
+    overflow: scroll;
     @media screen and (max-width: 1000px) {
       margin: 20px 20px;
     }
@@ -60,7 +62,7 @@ body {
         border: 1px solid white;
         border-radius: 9px;
         min-height: 40px;
-        max-width: 60vw;
+        max-width: 65vw;
         .tail {
           position: absolute;
           top: 5px;
