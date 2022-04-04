@@ -1,12 +1,13 @@
 $color1: blue;
-
-nav {
-  width: 100vw;
-  height: 60px;
-  border: 1px red solid;
-  .logo {
-    font-size: 20px;
-    font-weight: 800;
-    color: $color1;
+body {
+  nav {
+    width: 100vw;
+    height: 60px;
+    border: 1px red solid;
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      color: $color1;
+    }
   }
 }

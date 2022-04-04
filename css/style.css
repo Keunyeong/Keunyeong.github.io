@@ -1,9 +1,12 @@
-h1 {
-  color: blue;
+body nav {
+  width: 100vw;
+  height: 60px;
+  border: 1px red solid;
 }
-
-div {
-  width: 200px;
+body nav .logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
