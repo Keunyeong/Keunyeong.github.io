@@ -19,6 +19,14 @@ body nav .logo {
 body nav .logo .fetch {
   color: rgb(252, 115, 3);
 }
+body main {
+  margin: 20px 200px;
+}
+@media screen and (max-width: 1000px) {
+  body main {
+    margin: 20px 30px;
+  }
+}
 body main .talk_box {
   display: flex;
   margin: 10px;
