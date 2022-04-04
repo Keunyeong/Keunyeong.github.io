@@ -1,5 +1,14 @@
 * {
   font-family: "Noto Sans KR", sans-serif;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+main::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera*/
 }
 
 .fetch {
@@ -20,6 +29,16 @@
   text-decoration: underline;
 }
 
+.highlight2 {
+  font-weight: 900;
+  color: #ee33ff;
+}
+
+.highlight3 {
+  font-weight: 700;
+  color: #ee33ff;
+}
+
 body {
   background-color: #111;
   color: white;
@@ -38,14 +57,14 @@ body nav .logo {
   font-size: 40px;
 }
 body main {
-  margin: 20px 200px;
+  margin: 10px 200px;
   height: 85vh;
   overflow: scroll;
   scroll-behavior: smooth;
 }
 @media screen and (max-width: 1000px) {
   body main {
-    margin: 20px 20px;
+    margin: 10px 20px;
   }
 }
 body main .talk_box {
