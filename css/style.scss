@@ -1,8 +1,12 @@
 $color1: blue;
 
-h1 {
-  color: $color1;
-}
-div {
-  width: 200px;
+nav {
+  width: 100vw;
+  height: 60px;
+  border: 1px red solid;
+  .logo {
+    font-size: 20px;
+    font-weight: 800;
+    color: $color1;
+  }
 }
