@@ -1,12 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+}
 body nav {
   width: 100vw;
   height: 60px;
-  border: 1px red solid;
+  border: 1px white solid;
 }
 body nav .logo {
   font-size: 20px;
   font-weight: 800;
-  color: GREEN;
+  color: blueviolet;
 }
 
 /*# sourceMappingURL=style.css.map */
