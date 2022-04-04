@@ -5,11 +5,13 @@
 .fetch {
   font-weight: 800;
   color: rgb(252, 115, 3);
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .leedocs {
   color: blueviolet;
   font-weight: 800;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .highlight {
@@ -30,6 +32,7 @@ body nav {
   align-items: center;
   border: 3px white solid;
   border-radius: 10px;
+  cursor: pointer;
 }
 body nav .logo {
   font-size: 40px;
@@ -38,6 +41,7 @@ body main {
   margin: 20px 200px;
   height: 85vh;
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 @media screen and (max-width: 1000px) {
   body main {
@@ -68,7 +72,7 @@ body main .talk_box .ballon {
   margin-left: 30px;
   border-radius: 9px;
   min-height: 40px;
-  max-width: 65vw;
+  max-width: 66vw;
 }
 body main .talk_box .ballon .tail {
   position: absolute;
@@ -100,7 +104,7 @@ body main .talk_box.guest {
 }
 body main .talk_box.guest .ballon {
   margin: 0;
-  margin-right: 30px;
+  margin-right: 18px;
   background-color: #ffe359;
 }
 
