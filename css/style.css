@@ -66,7 +66,6 @@ body main .talk_box .ballon {
   align-items: center;
   background-color: white;
   margin-left: 30px;
-  border: 1px solid white;
   border-radius: 9px;
   min-height: 40px;
   max-width: 65vw;
@@ -74,7 +73,13 @@ body main .talk_box .ballon {
 body main .talk_box .ballon .tail {
   position: absolute;
   top: 5px;
-  left: -20px;
+  left: -18px;
+  width: 20px;
+}
+body main .talk_box .ballon .tail_right {
+  position: absolute;
+  top: 5px;
+  right: -18px;
   width: 20px;
 }
 body main .talk_box .ballon .content {
@@ -89,6 +94,14 @@ body main .talk_box .ballon .bookmark {
   position: absolute;
   bottom: -14px;
   right: 5px;
+}
+body main .talk_box.guest {
+  justify-content: end;
+}
+body main .talk_box.guest .ballon {
+  margin: 0;
+  margin-right: 30px;
+  background-color: #ffe359;
 }
 
 /*# sourceMappingURL=style.css.map */
