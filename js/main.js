@@ -148,7 +148,8 @@ document.querySelector("nav").addEventListener("click", (e) => {
   const rate = ((count + 1) / list.length) * 100;
   document.querySelector(".rate").style.width = rate + "%";
 });
-document.querySelector("body").addEventListener("click", () => {
+document.querySelector("body").addEventListener("click", (e) => {
+  e.stopPropagation();
   const count = Number(sessionStorage.getItem("listCount")) + 1;
   const rate = ((count + 1) / list.length) * 100;
   document.querySelector(".rate").style.width = rate + "%";
