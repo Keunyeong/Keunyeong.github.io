@@ -1,16 +1,23 @@
 body {
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 body nav {
   width: 100vw;
   height: 60px;
-  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px white solid;
+  border-radius: 10px;
 }
 body nav .logo {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 800;
   color: blueviolet;
+}
+body nav .logo .fetch {
+  color: rgb(252, 115, 3);
 }
 
 /*# sourceMappingURL=style.css.map */
