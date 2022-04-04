@@ -1,3 +1,23 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.fetch {
+  font-weight: 800;
+  color: rgb(252, 115, 3);
+}
+
+.leedocs {
+  color: blueviolet;
+  font-weight: 800;
+}
+
+.highlight {
+  font-weight: 900;
+  color: #333;
+  text-decoration: underline;
+}
+
 body {
   background-color: #111;
   color: white;
@@ -13,23 +33,18 @@ body nav {
 }
 body nav .logo {
   font-size: 40px;
-  font-weight: 800;
-  color: blueviolet;
-}
-body nav .logo .fetch {
-  color: rgb(252, 115, 3);
 }
 body main {
   margin: 20px 200px;
 }
 @media screen and (max-width: 1000px) {
   body main {
-    margin: 20px 30px;
+    margin: 20px 20px;
   }
 }
 body main .talk_box {
   display: flex;
-  margin: 10px;
+  margin: 20px 0;
 }
 body main .talk_box .avatar {
   width: 50px;
@@ -52,6 +67,7 @@ body main .talk_box .ballon {
   border: 1px solid white;
   border-radius: 9px;
   min-height: 40px;
+  max-width: 60vw;
 }
 body main .talk_box .ballon img {
   position: absolute;
@@ -62,6 +78,15 @@ body main .talk_box .ballon img {
 body main .talk_box .ballon .content {
   color: black;
   margin: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+body main .talk_box .ballon .bookmark {
+  color: #6e6e6e;
+  font-size: 10px;
+  position: absolute;
+  bottom: -14px;
+  right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

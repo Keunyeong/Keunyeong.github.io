@@ -1,4 +1,20 @@
 $color1: blueviolet;
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.fetch {
+  font-weight: 800;
+  color: rgb(252, 115, 3);
+}
+.leedocs {
+  color: $color1;
+  font-weight: 800;
+}
+.highlight {
+  font-weight: 900;
+  color: #333;
+  text-decoration: underline;
+}
 body {
   background-color: #111;
   color: white;
@@ -12,21 +28,16 @@ body {
     border-radius: 10px;
     .logo {
       font-size: 40px;
-      font-weight: 800;
-      color: $color1;
-      .fetch {
-        color: rgb(252, 115, 3);
-      }
     }
   }
   main {
     margin: 20px 200px;
     @media screen and (max-width: 1000px) {
-      margin: 20px 30px;
+      margin: 20px 20px;
     }
     .talk_box {
       display: flex;
-      margin: 10px;
+      margin: 20px 0;
       .avatar {
         width: 50px;
         height: 50px;
@@ -49,6 +60,7 @@ body {
         border: 1px solid white;
         border-radius: 9px;
         min-height: 40px;
+        max-width: 60vw;
         img {
           position: absolute;
           top: 5px;
@@ -58,6 +70,15 @@ body {
         .content {
           color: black;
           margin: 10px;
+          font-size: 16px;
+          line-height: 20px;
+        }
+        .bookmark {
+          color: #6e6e6e;
+          font-size: 10px;
+          position: absolute;
+          bottom: -14px;
+          right: 5px;
         }
       }
     }
