@@ -144,9 +144,13 @@ document.querySelector("nav").addEventListener("click", () => {
   }
   document.querySelector("main").scrollTop =
     document.querySelector("main").scrollHeight;
+  const rate = ((count + 1) / list.length) * 100;
+  document.querySelector(".rate").style.width = rate + "%";
 });
 document.querySelector("main").addEventListener("click", () => {
   const count = Number(sessionStorage.getItem("listCount")) + 1;
+  const rate = ((count + 1) / list.length) * 100;
+  document.querySelector(".rate").style.width = rate + "%";
   if (count === list.length) {
     return;
   }

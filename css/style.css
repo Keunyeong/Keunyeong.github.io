@@ -13,7 +13,7 @@ main::-webkit-scrollbar {
 
 .fetch {
   font-weight: 800;
-  color: rgb(252, 115, 3);
+  color: rgb(255, 115, 0);
   font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -55,9 +55,29 @@ body nav {
 }
 body nav .logo {
   font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bar {
+  height: 3px;
+  width: 100vw;
+  background-color: #6e6e6e;
+  margin-top: 3px;
+  position: relative;
+}
+body .bar .rate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  transition: width 0.5s ease-out;
+  background-color: rgb(255, 115, 0);
+  z-index: 2;
 }
 body main {
-  margin: 10px 200px;
+  margin: 5px 200px;
   height: 85vh;
   overflow: scroll;
   scroll-behavior: smooth;
