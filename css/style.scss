@@ -1,9 +1,11 @@
-$color1: blue;
+$color1: blueviolet;
 body {
+  background-color: black;
+  color: white;
   nav {
     width: 100vw;
     height: 60px;
-    border: 1px red solid;
+    border: 1px white solid;
     .logo {
       font-size: 20px;
       font-weight: 800;
