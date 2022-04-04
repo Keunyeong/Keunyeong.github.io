@@ -69,7 +69,7 @@ body main .talk_box .ballon {
   min-height: 40px;
   max-width: 60vw;
 }
-body main .talk_box .ballon img {
+body main .talk_box .ballon .tail {
   position: absolute;
   top: 5px;
   left: -20px;
