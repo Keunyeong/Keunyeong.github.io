@@ -107,7 +107,8 @@ document.querySelector("main").innerHTML = `<div class="talk_box">
       <div class="bookmark">읽음 - line 1</div>
     </div>
   </div>`;
-document.querySelector("nav").addEventListener("click", () => {
+document.querySelector("nav").addEventListener("click", (e) => {
+  e.stopPropagation();
   let count = Number(sessionStorage.getItem("listCount"));
   while (count !== list.length - 1) {
     count++;
@@ -147,7 +148,7 @@ document.querySelector("nav").addEventListener("click", () => {
   const rate = ((count + 1) / list.length) * 100;
   document.querySelector(".rate").style.width = rate + "%";
 });
-document.querySelector("main").addEventListener("click", () => {
+document.querySelector("body").addEventListener("click", () => {
   const count = Number(sessionStorage.getItem("listCount")) + 1;
   const rate = ((count + 1) / list.length) * 100;
   document.querySelector(".rate").style.width = rate + "%";
@@ -187,31 +188,3 @@ document.querySelector("main").addEventListener("click", () => {
   document.querySelector("main").scrollTop =
     document.querySelector("main").scrollHeight;
 });
-
-// document.querySelector("main").innerHTML = list
-//   .map((data, index) => {
-//     if (data.talker === "host") {
-//       return `<div class="talk_box">
-//     <div class="avatar">
-//       <img src=${data.image} alt="TALKER" />
-//     </div>
-//     <div class="ballon">
-//       <img class="tail" src="img/tail.svg" alt="TAIL" />
-//       <p class="content">
-//         ${data.content}
-//       </p>
-//       <div class="bookmark">읽음 - line ${index + 1}</div>
-//     </div>
-//   </div>`;
-//     } else {
-//       return `<div class="talk_box guest">
-//     <div class="ballon">
-//       <img class="tail_right" src="img/tail_right.svg" alt="TAIL" />
-//       <p class="content">
-//         ${data.content}
-//       </p>
-//     </div>
-//   </div>`;
-//     }
-//   })
-//   .join("");
