@@ -92,4 +92,82 @@ export const list = [
     content: `지금까지 개발한 프로젝트를 소개해주세요.`,
     talker: "guest",
   },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      1. 매장 자리 예약 및 매장 관리 웹 페이지 구현<br/>
+      <a class="highlight3" href="https://github.com/Keunyeong/The_seat"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      시연영상
+      (본인 역할: 프로젝트 조장, <img class="logo" src="img/java.png" alt="JAVA" >java 환경 Back-end 개발, OracleDB 구성, 영상 업로드)
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    <iframe width="270"  src="https://www.youtube.com/embed/WDNLef7isgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      2. 해커뉴스 리뉴얼 (React) <br/>
+      <a class="highlight3" href="https://github.com/Keunyeong/React-HackerNews" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      발표 자료<br/>
+      (본인 역할: 해커뉴스 api 활용 전체 <img class="logo" src="img/react.png" alt="REACTLOGO" >React.js로 개발)
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      <img src="img/HackerNews.gif" width="270">
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      3. 사람인 지역별 채용공고 (React) <br/>
+      <a class="highlight3" href="https://github.com/FastCampus-hackathon/mukgosalja" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      개발 구현 부분 영상<br/>
+      (본인 역할: 기획, 디자인 참여, Front-end 모든 구현 <img class="logo" src="img/react.png" alt="REACTLOGO" >React.js로 개발)
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      <img src="img/saramin.gif" width="270">
+    `,
+    isRead: true,
+    talker: "host",
+  },
 ];
