@@ -59,7 +59,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-    이후 <a class="highlight2" href="https://leedocs.notion.site/React-8513815981e1474ca08f069f9ce01dc9" target="_blank">[스파르타코딩클럽]프론트엔드의 꽃 react</a> 온라인 강의를 통해 리엑트를 조금 알게 되었습니다.
+    이후 <a class="highlight2" href="https://leedocs.notion.site/React-8513815981e1474ca08f069f9ce01dc9" target="_blank">[스파르타코딩클럽]프론트엔드의 꽃 react</a> 온라인 강의를 통해 리엑트를 학습하였습니다.
     `,
     isRead: true,
     talker: "host",
