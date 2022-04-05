@@ -3,8 +3,8 @@ const list = [
     image: "img/keunyeong.JPG",
     content: `안녕하세요. <span class="fetch">$</span>
     <span class="leedocs">Leedocs</span> 를 방문해 주셔서 감사합니다.<br/>
-    페이지 중앙을 <span class="highlight">클릭</span>하여 대화를 읽어주세요.<br/>
-    로고를 제외한 색이 다른 글자를 누르면 상세페이지가 열립니다.`,
+    페이지를 <span class="highlight">클릭</span>하여 대화를 읽어주세요.<br/>
+    로고를 제외한  <span class="highlight3">색이 다른 글자</span>를  <span class="highlight">클릭</span>하면 상세페이지가 열립니다.`,
     isRead: true,
     talker: "host",
   },
