@@ -44,6 +44,17 @@ main::-webkit-scrollbar {
   margin: 5px 3px 0 0;
 }
 
+.preview {
+  width: 270px;
+  margin: 2px;
+  border: 1px solid white;
+}
+@media screen and (max-width: 600px) {
+  .preview {
+    width: 230px;
+  }
+}
+
 body {
   background-color: #111;
   color: white;

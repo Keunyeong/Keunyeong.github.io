@@ -95,7 +95,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-      1. 매장 자리 예약 및 매장 관리 웹 페이지 구현<br/>
+      <span class="highlight">1. 매장 자리 예약 및 매장 관리 웹 페이지 구현</span><br/>
       <a class="highlight3" href="https://github.com/Keunyeong/The_seat"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
     `,
     isRead: true,
@@ -113,7 +113,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-    <iframe width="270"  src="https://www.youtube.com/embed/WDNLef7isgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="preview"  src="https://www.youtube.com/embed/WDNLef7isgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `,
     isRead: true,
     talker: "host",
@@ -121,7 +121,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-      2. 해커뉴스 리뉴얼 (React) <br/>
+    <span class="highlight">2. 해커뉴스 리뉴얼 (React)</span> <br/>
       <a class="highlight3" href="https://github.com/Keunyeong/React-HackerNews" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
     `,
     isRead: true,
@@ -139,7 +139,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-      <img src="img/HackerNews.gif" width="270">
+      <img class="preview" src="img/HackerNews.gif"/>
     `,
     isRead: true,
     talker: "host",
@@ -147,7 +147,7 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-      3. 사람인 지역별 채용공고 (React) <br/>
+    <span class="highlight">3. 사람인 지역별 채용공고 (React)</span> <br/>
       <a class="highlight3" href="https://github.com/FastCampus-hackathon/mukgosalja" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
     `,
     isRead: true,
@@ -165,7 +165,35 @@ export const list = [
   {
     image: "img/keunyeong.JPG",
     content: `
-      <img src="img/saramin.gif" width="270">
+      <img class="preview" src="img/saramin.gif" alt="SARAMINPREVIEW"/>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    <span class="highlight">4. 올라에듀 완공셀파 (React)</span> <br/>
+    에듀해시 글로벌파트너스 기업과 함께 <br/>
+    운영중인 기숙학원 학생용 웹,모바일 성적확인 어플리케이션 개발<br/>
+      <a class="highlight3" href="https://github.com/OllaEdu-Wangong-Sherpa/OllaEdu-Wangong-Sherpa" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+      시현 및 활용 안내 영상<br/>
+      (본인 역할: 기획, 디자인 참여, 메뉴바, 풋터바, 마이페이지, 메인페이지 그래프(D3.js) <img class="logo" src="img/react.png" alt="REACTLOGO" >React.js로 개발, 배포, 영상제작)
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    <iframe class="preview" src="https://www.youtube.com/embed/n_r75Au7dSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `,
     isRead: true,
     talker: "host",
