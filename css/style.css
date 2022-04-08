@@ -59,8 +59,14 @@ body {
   background-color: #111;
   color: white;
   height: 100vh;
+  padding-top: 100px;
 }
-body nav {
+body header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body header nav {
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -70,17 +76,17 @@ body nav {
   box-sizing: border-box;
   cursor: pointer;
 }
-body nav .logo {
+body header nav .logo {
   font-size: 40px;
 }
-body .bar {
+body header .bar {
   height: 3px;
   width: 100vw;
   background-color: #6e6e6e;
   margin-top: 3px;
   position: relative;
 }
-body .bar .rate {
+body header .bar .rate {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,29 +96,30 @@ body .bar .rate {
   background-color: rgb(255, 115, 0);
   z-index: 2;
 }
-body .search {
+body header .search {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-top: 5px;
   margin-right: 200px;
+  margin-bottom: 5px;
 }
 @media screen and (max-width: 1000px) {
-  body .search {
+  body header .search {
     margin-right: 20px;
   }
 }
-body .search input {
+body header .search input {
   background-color: transparent;
   border: none;
   color: white;
   margin: 0 5px;
   border-bottom: 1px solid #e6e6e6;
 }
-body .search input :focus {
+body header .search input :focus {
   outline: none;
 }
-body .search .btn_search {
+body header .search .btn_search {
   cursor: pointer;
   padding: 0;
   background-color: transparent;
@@ -121,23 +128,24 @@ body .search .btn_search {
   justify-content: center;
   align-items: center;
 }
-body .search .btn_search img {
+body header .search .btn_search img {
   width: 20px;
 }
 body main {
   padding: 5px 200px;
-  height: 88%;
+  height: 95%;
   overflow: scroll;
   scroll-behavior: smooth;
 }
 @media screen and (max-width: 1000px) {
   body main {
     padding: 5px 20px;
+    height: 95%;
   }
 }
 body main .talk_box {
   display: flex;
-  margin: 5px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 body main .talk_box .avatar {
   width: 50px;
