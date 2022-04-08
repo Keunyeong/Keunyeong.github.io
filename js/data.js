@@ -200,4 +200,34 @@ export const list = [
     isRead: true,
     talker: "host",
   },
+  {
+    content: `본인의 깃헙과 블로그 를 소개해 주세요!`,
+    talker: "guest",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    <span class="highlight">Keunyeong 의 Github</span><br/>
+    <a class="highlight3" href="https://github.com/Keunyeong" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>,<br/>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    <span class="highlight">Keunyeong 의 Velog</span> <br/>
+    <a class="highlight3" href="https://velog.io/@leedocs" target="_blank"><img class="logo" src="img/velogLogo.jpeg" alt="VELOGLOGO" >Velog</a> 입니다.<br/>
+    `,
+    isRead: true,
+    talker: "host",
+  },
+  {
+    image: "img/keunyeong.JPG",
+    content: `
+    개발 학습내용을 velog 보다 좀 더 다양하게 표현하고자 개인 페이지로 업로드 하기위해 제작 중 입니다.
+    `,
+    isRead: true,
+    talker: "host",
+  },
 ];
