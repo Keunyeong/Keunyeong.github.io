@@ -176,7 +176,9 @@ export const list = [
     <span class="highlight">4. 올라에듀 완공셀파 (React)</span> <br/>
     에듀해시 글로벌파트너스 기업과 함께 <br/>
     운영중인 기숙학원 학생용 웹,모바일 성적확인 어플리케이션 개발<br/>
-      <a class="highlight3" href="https://github.com/OllaEdu-Wangong-Sherpa/OllaEdu-Wangong-Sherpa" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a>
+      <a class="highlight3" href="https://github.com/OllaEdu-Wangong-Sherpa/OllaEdu-Wangong-Sherpa" target="_blank"><img class="logo" src="img/github.png" alt="GITHUBLOGO" >Github</a><br/>
+      <a class="highlight3" href="https://rose-raft-ef4.notion.site/2-2-d57f5833370740869bd2f24943881d4f" target="_blank"><img class="logo" src="img/notion.png" alt="NOTIONLOGO" >Notion</a><br/>
+
     `,
     isRead: true,
     talker: "host",

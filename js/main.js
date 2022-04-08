@@ -49,8 +49,10 @@ document.querySelector("nav").addEventListener("click", (e) => {
     }
     sessionStorage.setItem("listCount", count);
   }
-  document.querySelector("main").scrollTop =
-    document.querySelector("main").scrollHeight;
+  setTimeout(() => {
+    document.querySelector("main").scrollTop =
+      document.querySelector("main").scrollHeight;
+  }, 50);
   const rate = ((count + 1) / list.length) * 100;
   document.querySelector(".rate").style.width = rate + "%";
 });
@@ -92,6 +94,7 @@ document.querySelector("body").addEventListener("click", (e) => {
   </div>`
     );
   }
+  // 스크롤 길이 값이 계산된 후 이동 되도록 동기 설정.
   setTimeout(() => {
     document.querySelector("main").scrollTop =
       document.querySelector("main").scrollHeight;
