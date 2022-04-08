@@ -76,9 +76,41 @@ body {
       z-index: 2;
     }
   }
+  .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 200px;
+    @media screen and (max-width: 1000px) {
+      margin-right: 20px;
+    }
+    input {
+      background-color: transparent;
+      border: none;
+      color: white;
+      margin: 0 5px;
+      border-bottom: 1px solid #e6e6e6;
+      :focus {
+        outline: none;
+      }
+    }
+    .btn_search {
+      cursor: pointer;
+      padding: 0;
+      background-color: transparent;
+      border: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 20px;
+      }
+    }
+  }
   main {
     padding: 5px 200px;
-    height: 90%;
+    height: 88%;
     overflow: scroll;
     scroll-behavior: smooth;
     @media screen and (max-width: 1000px) {
@@ -86,7 +118,7 @@ body {
     }
     .talk_box {
       display: flex;
-      margin: 20px 0;
+      margin: 5px 0 20px 0;
       .avatar {
         width: 50px;
         height: 50px;

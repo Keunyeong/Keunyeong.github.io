@@ -90,9 +90,43 @@ body .bar .rate {
   background-color: rgb(255, 115, 0);
   z-index: 2;
 }
+body .search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 200px;
+}
+@media screen and (max-width: 1000px) {
+  body .search {
+    margin-right: 20px;
+  }
+}
+body .search input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 0 5px;
+  border-bottom: 1px solid #e6e6e6;
+}
+body .search input :focus {
+  outline: none;
+}
+body .search .btn_search {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .search .btn_search img {
+  width: 20px;
+}
 body main {
   padding: 5px 200px;
-  height: 90%;
+  height: 88%;
   overflow: scroll;
   scroll-behavior: smooth;
 }
@@ -103,7 +137,7 @@ body main {
 }
 body main .talk_box {
   display: flex;
-  margin: 20px 0;
+  margin: 5px 0 20px 0;
 }
 body main .talk_box .avatar {
   width: 50px;
