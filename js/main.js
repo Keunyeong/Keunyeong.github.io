@@ -92,6 +92,8 @@ document.querySelector("body").addEventListener("click", (e) => {
   </div>`
     );
   }
-  document.querySelector("main").scrollTop =
-    document.querySelector("main").scrollHeight;
+  setTimeout(() => {
+    document.querySelector("main").scrollTop =
+      document.querySelector("main").scrollHeight;
+  }, 50);
 });
