@@ -43,12 +43,16 @@ main::-webkit-scrollbar {
   }
 }
 body {
+  padding: 0;
+  margin: 0;
   background-color: #111;
   color: white;
   height: 100vh;
+  width: 100vw;
   padding-top: 100px;
+  overflow: auto;
   header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     nav {
@@ -117,10 +121,12 @@ body {
   }
 
   main {
-    padding: 5px 200px;
-    height: 95%;
+    margin: 0;
+    padding: 0 200px;
+    height: 100%;
     overflow: scroll;
     scroll-behavior: smooth;
+    width: 100vw;
     @media screen and (max-width: 1000px) {
       padding: 5px 20px;
       height: 95%;
