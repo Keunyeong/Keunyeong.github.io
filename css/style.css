@@ -67,7 +67,7 @@ body {
 }
 body header {
   position: fixed;
-  top: 0;
+  top: 1px;
   left: 0;
 }
 body header nav {
