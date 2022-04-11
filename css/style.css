@@ -136,9 +136,12 @@ body header .search .btn_search img {
   width: 20px;
 }
 body main {
+  position: fixed;
+  top: 100px;
+  left: 0;
   margin: 0;
   padding: 0 200px;
-  height: 100%;
+  height: 87%;
   overflow: scroll;
   scroll-behavior: smooth;
   width: 100vw;
@@ -146,7 +149,7 @@ body main {
 @media screen and (max-width: 1000px) {
   body main {
     padding: 5px 20px;
-    height: 95%;
+    height: 85%;
   }
 }
 body main .talk_box {
